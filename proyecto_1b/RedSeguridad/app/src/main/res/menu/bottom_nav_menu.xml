@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_rest"
+        android:icon="@drawable/ic_nav_rest"
+        android:title="REST API" />
+
+    <item
+        android:id="@+id/nav_secrets"
+        android:icon="@drawable/ic_nav_secrets"
+        android:title="Secretos" />
+
+</menu>

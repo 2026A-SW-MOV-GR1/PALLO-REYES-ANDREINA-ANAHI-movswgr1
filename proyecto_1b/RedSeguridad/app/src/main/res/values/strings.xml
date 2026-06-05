@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Red Seguridad</string>
+
+    <!--
+        Array consumido por el Spinner en fragment_secrets.xml.
+        El índice ordinal mapea directamente al enum StorageEngine:
+        posición 0 → SHARED_PREFS
+        posición 1 → DATA_STORE
+        posición 2 → ENCRYPTED_SHARED_PREFS
+    -->
+    <string-array name="storage_engines">
+        <item>SharedPreferences</item>
+        <item>Jetpack DataStore</item>
+        <item>EncryptedSharedPreferences</item>
+    </string-array>
+</resources>
